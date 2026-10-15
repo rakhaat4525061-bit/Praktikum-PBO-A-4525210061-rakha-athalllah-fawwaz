@@ -1,0 +1,40 @@
+# ── Java ─────────────────────────────────────────────
+*.class
+target/
+build/
+bin/
+out/
+.gradle/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+hs_err_pid*
+
+# ── PHP ──────────────────────────────────────────────
+/vendor/
+composer.lock
+.phpunit.result.cache
+.php-cs-fixer.cache
+
+# ── Laravel ──────────────────────────────────────────
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.phpunit.cache
+
+# ── IDE & OS ─────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# ── PlantUML render output ───────────────────────────
+**/out/uml/
